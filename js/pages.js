@@ -20,7 +20,7 @@ function back(el) {
 
 	holder.style.opacity = "0";
 	frontpage.style.display = "block";
-	
+
 	setTimeout(
 		function() {
 			holder.style.display = "none";
