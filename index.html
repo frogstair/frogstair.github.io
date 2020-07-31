@@ -2,25 +2,80 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@200&display=swap" rel="stylesheet">
-        <link href="main.css" rel="stylesheet">
 
-        <script src="text.js" type="text/javascript"></script>
-        <script src="pages.js" type="text/javascript"></script>
-        <script src="choices.js" type="text/javascript"></script>
+        <link href="css/frontpage.css" rel="stylesheet">
+        <link href="css/aboutme.css" rel="stylesheet">
+        <link href="css/generic.css" rel="stylesheet">
+
+        <script src="js/text.js" type="text/javascript"></script>
+        <script src="js/pages.js" type="text/javascript"></script>
+        <script src="js/choices.js" type="text/javascript"></script>
     </head>
     <body>
-        <div id="choices" onmouseleave="mouseOut(this)" class="choices-container">
-            <p onclick="pageHandler(this)" id="about" class="choice">About me</p>
-            <p onclick="pageHandler(this)" id="skills" class="choice">My skills</p>
-            <p onclick="pageHandler(this)" id="projects" class="choice">My projects</p>
-            <p onclick="pageHandler(this)" id="contact" class="choice">Contact</p>
-            <p onclick="pageHandler(this)" id="donate" class="choice">Donate</p>
+        <div id="frontpage-holder">
+            <div id="choices" onmouseleave="mouseOut(this)" class="choices-container">
+                <p onclick="pageHandler(this)" id="aboutme" class="choice">About me</p>
+                <p onclick="pageHandler(this)" id="skills" class="choice">My skills</p>
+                <p onclick="pageHandler(this)" id="projects" class="choice">My projects</p>
+                <p onclick="pageHandler(this)" id="contact" class="choice">Contact</p>
+                <p onclick="pageHandler(this)" id="donate" class="choice">Donate</p>
+            </div>
+            <div class="center" onmouseenter="mouseOver(this)">
+                <p class="main-text">
+                    frogstair
+                </p>
+                <pre id="subtext" class="sub-text">Welcome to my site</pre>
+            </div>
         </div>
-        <div class="center" onmouseenter="mouseOver(this)">
-            <p class="main-text">
-                frogstair
-            </p>
-            <pre id="subtext" class="sub-text">Welcome to my site</pre>
+
+        <div id="aboutme-holder">
+            <img class="backButton" src="img/back.svg" width="60px" height="60px" onclick="back(this)">
+            <div class="center" onmouseenter="mouseOver(this)">
+                <p class="main-text">
+                    about me
+                </p>
+                <pre id="subtext" class="sub-text">Welcome to my site</pre>
+            </div>
+        </div>
+
+        <div id="skills-holder">
+            <img class="backButton" src="img/back.svg" width="60px" height="60px" onclick="back(this)">
+            <div class="center" onmouseenter="mouseOver(this)">
+                <p class="main-text">
+                    skills
+                </p>
+                <pre id="subtext" class="sub-text">Welcome to my site</pre>
+            </div>
+        </div>
+
+        <div id="projects-holder">
+            <img class="backButton" src="img/back.svg" width="60px" height="60px" onclick="back(this)">
+            <div class="center" onmouseenter="mouseOver(this)">
+                <p class="main-text">
+                    projects
+                </p>
+                <pre id="subtext" class="sub-text">Welcome to my site</pre>
+            </div>
+        </div>
+        
+        <div id="contact-holder">
+            <img class="backButton" src="img/back.svg" width="60px" height="60px" onclick="back(this)">
+            <div class="center" onmouseenter="mouseOver(this)">
+                <p class="main-text">
+                    contact me
+                </p>
+                <pre id="subtext" class="sub-text">Welcome to my site</pre>
+            </div>
+        </div>
+        
+        <div id="donate-holder">
+            <img class="backButton" src="img/back.svg" width="60px" height="60px" onclick="back(this)">
+            <div class="center" onmouseenter="mouseOver(this)">
+                <p class="main-text">
+                    donate
+                </p>
+                <pre id="subtext" class="sub-text">Welcome to my site</pre>
+            </div>
         </div>
     </body>
 </html>

@@ -6,6 +6,7 @@ function mouseOver() {
 		el.style.transform = "translate(-50%, 30%)";
 	})
 }
+
 function mouseOut() {
 	var el = document.getElementById("choices");
 	el.style.opacity = 0;

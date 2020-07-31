@@ -1,0 +1,42 @@
+body {
+	background-color: #e9e9e9;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -90%);
+}
+
+#frontpage-holder {
+	opacity: 1;
+	transition-duration: 0.1s;
+}
+
+#aboutme-holder {
+	opacity: 0;
+	transition-duration: 0.1s;
+}
+
+#skills-holder {
+	opacity: 0;
+	transition-duration: 0.1s;
+}
+
+#projects-holder {
+	opacity: 0;
+	transition-duration: 0.1s;
+}
+
+#contact-holder {
+	opacity: 0;
+	transition-duration: 0.1s;
+}
+
+#donate-holder {
+	opacity: 0;
+	transition-duration: 0.1s;
+}

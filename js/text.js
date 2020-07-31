@@ -37,7 +37,7 @@ function removeText(subtext) {
 				return
 			}
 			subtext.innerText = subtext.innerText.slice(0, -1);
-		}, 100
+		}, 50
 	);
 }
 
