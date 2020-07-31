@@ -19,24 +19,29 @@ body {
 #aboutme-holder {
 	opacity: 0;
 	transition-duration: 0.1s;
+	display: none;
 }
 
 #skills-holder {
 	opacity: 0;
 	transition-duration: 0.1s;
+	display: none;
 }
 
 #projects-holder {
 	opacity: 0;
 	transition-duration: 0.1s;
+	display: none;
 }
 
 #contact-holder {
 	opacity: 0;
 	transition-duration: 0.1s;
+	display: none;
 }
 
 #donate-holder {
 	opacity: 0;
 	transition-duration: 0.1s;
+	display: none;
 }
