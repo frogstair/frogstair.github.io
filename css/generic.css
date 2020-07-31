@@ -45,3 +45,8 @@ body {
 	transition-duration: 0.1s;
 	display: none;
 }
+
+.backButton {
+	width: 24px;
+	height: 24px;
+}
