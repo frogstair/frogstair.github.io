@@ -20,6 +20,8 @@
 	opacity: 0;
 	transition-duration: 0.3s;
 	display: none;
+
+	padding-bottom: 20pt;
 	
 	margin: 0;
 	position: absolute;
