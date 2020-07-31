@@ -39,6 +39,8 @@ body {
     margin: 0;
     color: #383734;
     user-select: none;
+    text-decoration: underline solid transparent;
+    transition-duration: 0.3s;
 }
 
 .center {
@@ -58,4 +60,8 @@ body {
 .choices-container:hover {
     transform: translate(-50%, 70%);
     opacity: 1;
+}
+
+.choice:hover {
+    text-decoration: underline solid currentColor;
 }
