@@ -55,3 +55,18 @@
 	font-size: 18pt;
 	text-decoration: underline solid currentColor;
 }
+
+@media only screen and (max-width: 700px) {
+	.main-text {
+		font-size: 80pt;
+	}
+
+	.center:hover > .main-text {
+		font-size: 85pt;
+		text-shadow: 8px -8px 3px rgba(150, 150, 150, 1);
+	}
+
+	.sub-text {
+		font-size: 17pt;
+	}
+}

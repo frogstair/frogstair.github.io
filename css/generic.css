@@ -50,3 +50,10 @@ body {
 	width: 24px;
 	height: 24px;
 }
+
+@media only screen and (max-width: 700px) {
+	.backButton {
+		width: 35px;
+		height: 35px;
+	}
+}
