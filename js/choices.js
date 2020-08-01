@@ -3,7 +3,7 @@ function mouseOver() {
 	el.style.display = "block";
 	setTimeout(function() {
 		el.style.opacity = 1;
-		el.style.transform = "translate(-50%, 30%)";
+		el.style.transform = "translate(-50%, 60%)";
 	})
 }
 
