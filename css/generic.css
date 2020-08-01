@@ -49,6 +49,16 @@ body {
 .backButton {
 	width: 24px;
 	height: 24px;
+	transition-duration: 0.2s;
+}
+
+.subtext-small {
+	font-size: 20pt;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	user-select: none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 @media only screen and (max-width: 700px) {
