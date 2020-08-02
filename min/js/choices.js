@@ -1,0 +1,1 @@
+function mouseOver(){var t=document.getElementById("choices");t.style.display="block",setTimeout(function(){t.style.opacity=1,t.style.transform="translate(-50%, 60%)"})}function mouseOut(){var t=document.getElementById("choices");t.style.opacity=0,t.style.transform="translate(-50%, -50%)",setTimeout(function(){t.style.display="none"},100)}

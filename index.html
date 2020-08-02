@@ -5,15 +5,15 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@200&display=swap" rel="stylesheet">
 
-        <link href="css/generic.css" rel="stylesheet">
-        <link href="css/frontpage.css" rel="stylesheet">
-
-        <script src="js/text.js" type="text/javascript"></script>
-        <script src="js/pages.js" type="text/javascript"></script>
-        <script src="js/choices.js" type="text/javascript"></script>
+        <link href="min/css/generic.css" rel="stylesheet">
+        <link href="min/css/frontpage.css" rel="stylesheet">
+        
+        <script src="min/js/text.js" type="text/javascript"></script>
+        <script src="min/js/pages.js" type="text/javascript"></script>
+        <script src="min/js/choices.js" type="text/javascript"></script>
     </head>
     <body>
-        <div id="frontpage-holder">
+        <div id="frontpage-holder" class="holder">
             <div id="choices" onmouseleave="mouseOut(this)" class="choices-container">
                 <p onclick="pageHandler(this)" id="aboutme" class="choice">about me</p>
                 <p onclick="pageHandler(this)" id="skills" class="choice">my skills</p>
@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <div id="aboutme-holder">
+        <div id="aboutme-holder" class="holder">
             <img class="backButton" src="img/back.svg" onclick="back(this)">
             <div class="center" onmouseenter="mouseOver(this)">
                 <p class="main-text">
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div id="skills-holder">
+        <div id="skills-holder" class="holder">
             <img class="backButton" src="img/back.svg" onclick="back(this)">
             <div class="center" onmouseenter="mouseOver(this)">
                 <p class="main-text">
@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <div id="projects-holder">
+        <div id="projects-holder" class="holder">
             <img class="backButton" src="img/back.svg" onclick="back(this)">
             <div class="center" onmouseenter="mouseOver(this)">
                 <p class="main-text">
@@ -66,7 +66,7 @@
             </div>
         </div>
         
-        <div id="contact-holder">
+        <div id="contact-holder" class="holder">
             <img class="backButton" src="img/back.svg" onclick="back(this)">
             <div class="center" onmouseenter="mouseOver(this)">
                 <p class="main-text">
@@ -79,7 +79,7 @@
                 <a target="_blank" href="https://vk.com/frogstair" class="choice subtext-small">vkontakte</a><br>
             </div>
         </div>
-        <div id="donate-holder">
+        <div id="donate-holder" class="holder">
             <img class="backButton" src="img/back.svg" onclick="back(this)">
             <div class="center" onmouseenter="mouseOver(this)">
                 <p class="main-text">
