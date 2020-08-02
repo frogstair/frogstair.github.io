@@ -42,11 +42,14 @@ function removeText(subtext) {
 }
 
 function switchWrite(subtext) {
-	var items = ["This is my frog domain",
+	var items = [
+		"This is my frog domain",
 		"I am a Go back-end developer",
 		"I am a C developer",
+		"Hi",
 		"I develop UWP apps with C#",
-		"My name is Daniel"
+		"My name is Daniel",
+		"I develop chrome extensions",
 	];
 	var id = Math.floor(Math.random() * items.length);
 	while (id === previous)
