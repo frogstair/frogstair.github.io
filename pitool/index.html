@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="description" content="PI decimal point tool">
+        <meta name="keywords" content="pi, decimal, pi to decimal places">
+        <meta name="author" content="frogstair">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>PI decimal point tool</title>
+
+		<link rel="stylesheet" href="pitool.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@200&display=swap" rel="stylesheet">
+		
+		<script src="pi.js"></script>
+	</head>
+	<body>
+		<div class="center">
+			<p>How many PI digits?</p>
+			<input onkeypress="validate(event)" id="input" placeholder="Max: 10000">
+			<button onclick="generatePi()">Generate</button>
+			<pre id="copied"> </pre>
+			<p>Created by <a href="..">frogstair</a></p>
+		</div>	
+		<input id="result"></input>
+	</body>
+</html>
