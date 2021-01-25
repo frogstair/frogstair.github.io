@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@font-face {
+  font-family: "Product Sans Bold";
+  src: url("/res/product_sans_bold-webfont.woff2") format("woff2"),
+    url("/res/product_sans_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 10px;
+}
+
+.name {
+  font-family: "Product Sans Bold", sans-serif;
+  font-size: 200pt;
+  color: #1c1c1c;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.darkmode-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.darkmode-icon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-right: 10px;
+  top: 50%;
+}
+
+.darkmode-icon {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.darkmode-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.darkmode-slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #3d3d3d;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 34px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.darkmode-slider::before {
+  position: absolute;
+  content: "";
+  text-align: center;
+  justify-content: center;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .darkmode-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.dark.darkmode-slider {
+  background-color: #dedede;
+}
+
+.dark.darkmode-icon {
+  fill: #dedede;
+  background-color: transparent;
+}
+
+.darkable {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.dark.darkmode-slider:before {
+  background-color: #1c1c1c;
+}
+
+.dark.name {
+  background-color: transparent;
+}
+
+.horizontal-line {
+  min-width: 100%;
+  height: 4px;
+  background-color: #1c1c1c;
+}
+
+@media only screen and (max-width: 576px) {
+  .name {
+    font-size: 18vw;
+  }
+
+  .horizontal-line {
+    min-width: 100%;
+    height: 2px;
+    background-color: #1c1c1c;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .name {
+    font-size: 100pt;
+  }
+
+  .horizontal-line {
+    min-width: 100%;
+    height: 1px;
+    background-color: #1c1c1c;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .name {
+    font-size: 200pt;
+  }
+}

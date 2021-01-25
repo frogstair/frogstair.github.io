@@ -1,3 +1,0 @@
-# website
-
- My current website
