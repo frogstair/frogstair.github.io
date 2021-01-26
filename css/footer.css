@@ -1,0 +1,35 @@
+.icon {
+  margin: 1vh;
+}
+
+.footer-container {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.footer {
+  background-color: transparent;
+  display: flex;
+  font-size: 30pt;
+  justify-content: space-around;
+}
+
+.dark.footer-container {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (min-width: 577px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 30pt;
+  }
+}

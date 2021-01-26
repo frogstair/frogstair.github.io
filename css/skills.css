@@ -1,0 +1,48 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-column {
+  flex: 50%;
+  margin: 10px;
+}
+
+.skills-heading {
+  font-family: "Product Sans Bold", sans-serif;
+  text-decoration-thickness: 3px;
+  font-size: 30pt;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.skill {
+  margin-top: 3vh;
+}
+
+@media only screen and (max-width: 576px) {
+  .skills-heading {
+    font-size: 20pt;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 15pt;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .skills-heading {
+    font-size: 20pt;
+  }
+  .skills-container {
+    font-size: 15pt;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .skills-container {
+    font-size: 16pt;
+  }
+}

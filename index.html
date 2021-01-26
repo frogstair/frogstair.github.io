@@ -8,9 +8,17 @@
     <script src="js/main.js"></script>
 
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
   </head>
   <body class="darkable" style="display: none">
-    <div class="main-container">
+    <div class="main-container-light">
       <div class="top-bar">
         <div class="darkmode-icon-container">
           <svg
@@ -35,7 +43,35 @@
       </div>
       <p class="darkable name">frogstair</p>
     </div>
-    <!-- <div class="horizontal-line"></div> -->
-    
+    <div class="main-container-dark darkable skills-container">
+      <div class="skills-column">
+        <p class="skills-heading">What I can do</p>
+        <ul>
+          <li class="skill">Backend development with Go</li>
+          <li class="skill">Low level development</li>
+        </ul>
+      </div>
+      <div class="skills-column">
+        <p class="skills-heading">What I'm learning to do</p>
+        <ul>
+          <li class="skill">
+            OS development<br />Watch my progress
+            <a
+              target="_blank"
+              href="https://github.com/frogstair/tynvos"
+              class="darkable link"
+              >here</a
+            >
+          </li>
+          <li class="skill">Front end development</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-container darkable">
+      <div class="footer">
+        <p class="icon"><i class="fab fa-github-square"></i></p>
+        <p class="icon"><i class="fab fa-instagram-square"></i></p>
+      </div>
+    </div>
   </body>
 </html>
