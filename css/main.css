@@ -159,8 +159,20 @@ input:checked + .darkmode-slider:before {
   background-color: transparent;
 }
 
+.link-dark {
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative;
+  color: var(--black);
+  background-color: transparent;
+}
+
 .dark.link {
   color: var(--black);
+}
+
+.dark.link-dark {
+  color: var(--white);
 }
 
 @media only screen and (max-width: 576px) {

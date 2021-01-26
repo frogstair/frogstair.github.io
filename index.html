@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -17,7 +18,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="darkable" style="display: none">
+  <body ontouchstart="" class="darkable" style="display: none">
     <div class="main-container-light">
       <div class="top-bar">
         <div class="darkmode-icon-container">
@@ -67,10 +68,36 @@
         </ul>
       </div>
     </div>
+    <div class="main-container">
+      <p class="projects-heading">Projects</p>
+      <div class="projects-container">
+        <p class="project">
+          <a
+            class="link-dark darkable"
+            href="https://github.com/frogstair/tynvos"
+            >Tyn(vOS)</a
+          >
+          - an experimental operating system/kernel
+        </p>
+        <p class="project">
+          <a
+            class="link-dark darkable"
+            href="https://github.com/frogstair/frogstair.github.io"
+            >This website</a
+          >
+          - its open source too!
+        </p>
+      </div>
+    </div>
     <div class="footer-container darkable">
       <div class="footer">
-        <p class="icon"><i class="fab fa-github-square"></i></p>
-        <p class="icon"><i class="fab fa-instagram-square"></i></p>
+        <a href="https://github.com/frogstair" class="icon link darkable">
+          <i class="fab fa-github-square"></i>
+        </a>
+
+        <a onclick="generateEmail()" id="email" href="mailto:daniladudkin412@gmail.com?subject=Hey!&body=Wow%2C%20you%20are%20fast!" class="icon link darkable">
+          <i class="fas fa-envelope-square"></i>
+        </a>
       </div>
     </div>
   </body>

@@ -1,0 +1,47 @@
+.projects-container {
+  text-align: center;
+}
+
+.projects-heading {
+  font-family: "Product Sans Bold", sans-serif;
+  text-decoration-thickness: 3px;
+  font-size: 30pt;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.projects-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.project {
+  margin-top: 3vh;
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .projects-heading {
+    font-size: 20pt;
+  }
+
+  .projects-container {
+    font-size: 15pt;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .projects-heading {
+    font-size: 20pt;
+  }
+  .projects-container {
+    font-size: 15pt;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .projects-container {
+    font-size: 16pt;
+  }
+
+}
